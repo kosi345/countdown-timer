@@ -1,0 +1,75 @@
+
+*{
+    margin:0;
+    padding:0;
+    font-family:'poppins',sans-serifs;
+    box-sizing: border-box;
+}
+.container{ 
+    width:100vw;
+    height: 200vh;
+    background-color: rgb(154, 154, 216);
+    padding:5%;
+    align-items:flex-end;
+    
+}
+.macbook{
+    width: 70vw;
+    height:50vw;
+    cursor:pointer;
+    vertical-align: top;
+    border-radius: 10px;
+    
+}
+
+.content{
+    color:white;
+    vertical-align: bottom;
+}
+
+.content h1{
+    font-size: 30px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(29, 7, 7);
+}
+
+
+.content p{
+    font-size:20px;
+    font-style:normal;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+}
+
+.content h2{
+    font-size: 25px;
+    font-style: oblique;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+.box{
+    background-color:rgb(2, 2, 51);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40px;
+    border-radius: 5px;
+    margin: 10px;
+
+}
+.box span{
+    font-size: 30px;
+}
+.box p{
+    margin:0;
+}
+.lauchtime{
+    display:flex;
+}
+
+.lauchtime div{
+ flex-basis:100px ;
+}
